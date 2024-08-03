@@ -1,0 +1,76 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: white;
+  font-size: 18px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 24px;
+}
+
+a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: darkmagenta;
+  font-size: 20px;
+  font-weight: 400;
+  font-style: italic;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.reviews {
+  color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  gap: 10x;
+  justify-content: center;
+  background-color: lightgray;
+}
+
+h2.productName {
+  text-align: center;
+  background-color: gray;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+h2.productName:hover {
+  background-color: white;
+  color: gray;
+  cursor: pointer;
+}
+
+span.review {
+  display: inline-block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: gainsboro;
+  color: black;
+}
+
+button.delete {
+  background-color: darkgray;
+  color: white;
+  width: 100px;
+  font-size: 12px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.wrapper {
+  background-color: whitesmoke;
+}
+
+div.invisible {
+  display: none;
+}
+
+div.visible {
+  display: block;
+}
